@@ -1,0 +1,46 @@
+
+# ==============================
+# VS CODE ET EDITEURS
+# ==============================
+.vscode/
+*.code-workspace
+
+# ==============================
+# FICHIERS SYSTEME
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# FICHIERS TEMPORAIRES
+# ==============================
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+
+# ==============================
+# SECRETS ET CONFIGURATIONS LOCALES
+# ==============================
+.env
+.env.*
+!.env.example
+
+# ==============================
+# DEPENDANCES JAVASCRIPT (si utilisees)
+# ==============================
+node_modules/
+
+# ==============================
+# FICHIERS GENERES
+# ==============================
+dist/
+build/
+coverage/
+
+# ==============================
+# FICHIERS LOCAUX DE TEST
+# ==============================
+*.local.php
