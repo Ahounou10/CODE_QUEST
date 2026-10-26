@@ -1,0 +1,111 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscription - CODE QUEST</title>
+</head>
+<body>
+
+    <header>
+        <a href="../index.html">
+            <img src="../assets/images/logo.png" alt="Logo CODE QUEST" width="60">
+            <span>CODE QUEST</span>
+        </a>
+
+        <nav>
+            <a href="../index.html">Accueil</a>
+            <a href="parcours.html">Parcours</a>
+            <a href="projets.html">Projets</a>
+            <a href="connexion.html">Connexion</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Rejoins l'aventure CODE QUEST !</h1>
+            <p>Crée ton compte et commence à développer tes compétences.</p>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nom">Nom complet</label>
+                    <input
+                        type="text"
+                        id="nom"
+                        name="nom"
+                        placeholder="Ex. : Jean Kouassi"
+                        autocomplete="name"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="pseudo">Nom d'utilisateur</label>
+                    <input
+                        type="text"
+                        id="pseudo"
+                        name="pseudo"
+                        placeholder="Choisis ton pseudo"
+                        autocomplete="username"
+                        minlength="3"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="email">Adresse e-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="exemple@email.com"
+                        autocomplete="email"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="mot-de-passe">Mot de passe</label>
+                    <input
+                        type="password"
+                        id="mot-de-passe"
+                        name="mot_de_passe"
+                        placeholder="Choisis un mot de passe"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+                </div>
+
+                <div>
+                    <label for="confirmation">Confirmer le mot de passe</label>
+                    <input
+                        type="password"
+                        id="confirmation"
+                        name="confirmation"
+                        placeholder="Saisis à nouveau ton mot de passe"
+                        autocomplete="new-password"
+                        minlength="8"
+                        required
+                    >
+                </div>
+
+                <button type="submit">Créer mon compte</button>
+
+            </form>
+
+            <p>
+                Tu as déjà un compte ?
+                <a href="connexion.html">Se connecter</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CODE QUEST - Apprends, pratique et progresse !</p>
+    </footer>
+
+</body>
+</html>
