@@ -1,76 +1,87 @@
+
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CODE QUEST</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
+    <!-- HEADER -->
     <header>
 
-             <div> 
-                <a href="index.html">
-                    <img 
-                        src="assets/images/logo-code-quest.png" 
-                        alt="Logo de CODE QUEST"
-                        width="100"
-                    >
-                </a> 
-            </div>
+        <div class="logo">
+            <a href="index.html">
+                <img
+                    src="assets/images/logo-code-quest.png"
+                    alt="Logo de CODE QUEST"
+                    width="100"
+                >
+            </a>
+        </div>
 
-    <nav>
-        <a href="index.html">Accueil</a>
-        <a href="pages/parcours.html">Parcours</a>
-        <a href="pages/projets.html">Projets</a>
-        <a href="pages/boss.html">Boss</a>
-        <a href="pages/progression.html">Progression</a>
-    </nav>
-
+        <!-- NAVIGATION -->
+        <nav>
+            <a href="index.html">Accueil</a>
+            <a href="pages/parcours.html">Parcours</a>
+            <a href="pages/projets.html">Projets</a>
+            <a href="pages/boss.html">Boss</a>
+            <a href="pages/progression.html">Progression</a>
+        </nav>
 
     </header>
 
+    <!-- CONTENU PRINCIPAL -->
     <main>
 
-        <section>
+        <!-- SECTION HERO -->
+        <section class="hero">
 
-        <h1>Bienvenue dans CODE QUEST</h1>
+            <h1>Bienvenue dans CODE QUEST</h1>
 
-        <p>
-            Apprends le développement web en relevant des défis,
-            en réalisant des projets et en progressant étape par étape.
-        </p>
+            <p>
+                Apprends le développement web en relevant des défis,
+                en réalisant des projets et en progressant étape par étape.
+            </p>
 
-        <a href="pages/parcours.html">Commencer l'aventure</a>
+            <a href="pages/parcours.html" class="btn">
+                Commencer l'aventure
+            </a>
 
         </section>
 
+        <!-- POURQUOI CODE QUEST -->
+        <section class="section">
 
-        <section>
+            <h2>Pourquoi CODE QUEST ?</h2>
 
-        <h2>Pourquoi CODE QUEST ?</h2>
+            <p>
+                CODE QUEST est conçu pour rendre l'apprentissage du développement web
+                amusant et interactif. Chaque défi et projet est conçu pour renforcer
+                tes compétences et te préparer à devenir un développeur compétent.
+            </p>
 
-        <p>
-            CODE QUEST est conçu pour rendre l'apprentissage du développement web
-            amusant et interactif. Chaque défi et projet est conçu pour renforcer
-            tes compétences et te préparer à devenir un développeur compétent.
-        </p>
+            <ul>
+                <li>Défis interactifs</li>
+                <li>Projets pratiques</li>
+                <li>Apprendre progressivement</li>
+            </ul>
 
-        <ul>
-            <li>Défis interactifs</li>
-            <li>Projets pratiques</li>
-            <li>Apprendre progressivement</li>
-        </ul>
-        
         </section>
 
-        <section>
+        <!-- FONCTIONNEMENT -->
+        <section class="section">
 
             <h2>Comment fonctionne CODE QUEST ?</h2>
 
-            <p> Dans CODE QUEST, tu progresses étape par étape. Chaque notion apprise est suivie d'exercices, 
-                de projets et de défis qui te permettent de mettre tes connaissances en pratique.
+            <p>
+                Dans CODE QUEST, tu progresses étape par étape. Chaque notion apprise
+                est suivie d'exercices, de projets et de défis qui te permettent
+                de mettre tes connaissances en pratique.
             </p>
 
             <ol>
@@ -79,13 +90,12 @@
                 <li>Construire</li>
                 <li>Affronter les Boss</li>
                 <li>Progresser</li>
-
-
             </ol>
 
         </section>
 
-        <section>
+        <!-- DÉBUT DE L'AVENTURE -->
+        <section class="section">
 
             <h2>Ton aventure commence ici</h2>
 
@@ -94,37 +104,52 @@
                 progressivement tes compétences en développement web.
             </p>
 
-            <a href="pages/parcours.html">Commencer le parcours</a>
+            <a href="pages/parcours.html" class="btn">
+                Commencer le parcours
+            </a>
 
-            <a href="pages/projets.html">Découvrir les projets</a>
+            <a href="pages/projets.html" class="btn">
+                Découvrir les projets
+            </a>
 
         </section>
 
-        <section>
+        <!-- PREMIÈRES MISSIONS -->
+        <section class="section">
+
             <h2>Nos premières missions</h2>
 
-                <article>
-                    <h3>Mission 1 — HTML</h3>
-                    <p>Découvre les bases du HTML.</p>
-                    <a href="pages/cours.html">Découvrir</a>
-                </article>
+            <article class="mission-card">
 
-                <article>
-                    <h3>Mission 2 — CSS</h3>
-                    <p>Découvre les bases du CSS.</p>
-                    <a href="pages/cours.html">Découvrir</a>
-                </article>
+                <h3>Mission 1 — HTML</h3>
+
+                <p>Découvre les bases du HTML.</p>
+
+                <a href="pages/cours.html">Découvrir</a>
+
+            </article>
+
+            <article class="mission-card">
+
+                <h3>Mission 2 — CSS</h3>
+
+                <p>Découvre les bases du CSS.</p>
+
+                <a href="pages/cours.html">Découvrir</a>
+
+            </article>
+
         </section>
-
-
 
     </main>
 
+    <!-- FOOTER -->
     <footer>
 
-        <p>&copy; 2026 CODE QUEST</p>
+        <p>&copy; 2026 CODE QUEST. Tous droits réservés.</p>
 
     </footer>
-    
+
 </body>
+
 </html>

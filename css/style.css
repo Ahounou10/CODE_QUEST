@@ -1,0 +1,225 @@
+/* ========================================
+   CODE QUEST — STYLES GLOBAUX
+   ======================================== */
+
+/* 1. Variables globales */
+:root {
+    --couleur-principale: #6c5ce7;
+    --couleur-secondaire: #00cec9;
+    --couleur-fond: #0f172a;
+    --couleur-surface: #1e293b;
+    --couleur-texte: #f8fafc;
+    --couleur-texte-secondaire: #94a3b8;
+    --couleur-bordure: #334155;
+
+    --rayon: 12px;
+    --transition: 0.3s ease;
+}
+
+/* 2. Réinitialisation */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 3. Corps de la page */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--couleur-fond);
+    color: var(--couleur-texte);
+    line-height: 1.6;
+}
+
+/* 4. Images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* 5. Liens */
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: var(--transition);
+}
+
+/* 6. Boutons */
+button {
+    font: inherit;
+    cursor: pointer;
+    border: none;
+}
+
+/* 7. Champs de formulaire */
+input,
+textarea,
+select {
+    font: inherit;
+    max-width: 100%;
+}
+
+/* 8. Titres */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.2;
+}
+
+/* ========================================
+   CONTENEUR PRINCIPAL
+   ======================================== */
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* ========================================
+   HEADER ET NAVIGATION
+   ======================================== */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 15px 5%;
+
+    background-color: var(--couleur-surface);
+    border-bottom: 1px solid var(--couleur-bordure);
+}
+
+/* Logo */
+header img {
+    width: 100px;
+    height: auto;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Liens de navigation */
+nav a {
+    color: var(--couleur-texte-secondaire);
+    font-weight: bold;
+    transition: var(--transition);
+}
+
+/* Effet au survol */
+nav a:hover {
+    color: var(--couleur-secondaire);
+}
+
+/* ========================================
+   RESPONSIVE — HEADER
+   ======================================== */
+
+@media screen and (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+}
+
+/* ========================================
+   SECTION HERO
+   ======================================== */
+
+.hero {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    padding: 60px 20px;
+
+    background: linear-gradient(135deg,
+            #1e293b,
+            #312e81);
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    max-width: 700px;
+    color: var(--couleur-texte-secondaire);
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* ========================================
+   BOUTONS
+   ======================================== */
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+
+    background-color: var(--couleur-principale);
+    color: white;
+
+    border-radius: var(--rayon);
+    font-weight: bold;
+
+    transition: var(--transition);
+}
+
+.btn:hover {
+    background-color: var(--couleur-secondaire);
+    color: var(--couleur-fond);
+    transform: translateY(-3px);
+}
+
+/* ========================================
+   SECTIONS GÉNÉRALES
+   ======================================== */
+
+.section {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.section p {
+    color: var(--couleur-texte-secondaire);
+    margin-bottom: 20px;
+    max-width: 850px;
+}
+
+.section ul,
+.section ol {
+    padding-left: 25px;
+}
+
+.section li {
+    margin-bottom: 10px;
+}
