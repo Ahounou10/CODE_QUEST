@@ -5,28 +5,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CODE QUEST</title>
+
+    <meta name="description" content="Apprends le développement web avec CODE QUEST grâce à des cours, des exercices et des projets pratiques.">
+
+    <title>CODE QUEST | Apprends le développement web</title>
+
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <header>
+    <!-- EN-TÊTE -->
+    <header class="site-header">
 
         <div class="logo">
             <a href="index.html">
                 <img
                     src="assets/images/logo-code-quest.png"
-                    alt="Logo de CODE QUEST"
+                    alt="Logo CODE QUEST"
                     width="100"
                 >
             </a>
         </div>
 
-        <!-- NAVIGATION -->
-        <nav>
-            <a href="index.html">Accueil</a>
+        <nav class="navigation">
+            <a href="index.html" aria-current="page">Accueil</a>
             <a href="pages/parcours.html">Parcours</a>
             <a href="pages/projets.html">Projets</a>
             <a href="pages/boss.html">Boss</a>
@@ -35,121 +38,212 @@
 
     </header>
 
-    <!-- CONTENU PRINCIPAL -->
     <main>
 
-        <!-- SECTION HERO -->
+        <!-- PRÉSENTATION -->
         <section class="hero">
 
-            <h1>Bienvenue dans CODE QUEST</h1>
+            <div class="hero-content">
 
-            <p>
-                Apprends le développement web en relevant des défis,
-                en réalisant des projets et en progressant étape par étape.
-            </p>
+                <p class="eyebrow">PLATEFORME D'APPRENTISSAGE</p>
 
-            <a href="pages/parcours.html" class="btn">
-                Commencer l'aventure
-            </a>
+                <h1>
+                    Apprends à coder.<br>
+                    <span>Construis tes projets.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Apprends le développement web en relevant des défis,
+                    en réalisant des projets et en progressant étape par étape.
+                </p>
+
+                <a href="pages/parcours.html" class="btn">
+                    Commencer l'aventure
+                </a>
+
+            </div>
 
         </section>
 
         <!-- POURQUOI CODE QUEST -->
         <section class="section">
 
-            <h2>Pourquoi CODE QUEST ?</h2>
+            <div class="section-heading">
+                <p class="eyebrow">LA PLATEFORME</p>
+                <h2>Pourquoi CODE QUEST ?</h2>
+            </div>
 
-            <p>
-                CODE QUEST est conçu pour rendre l'apprentissage du développement web
-                amusant et interactif. Chaque défi et projet est conçu pour renforcer
-                tes compétences et te préparer à devenir un développeur compétent.
+            <p class="section-description">
+                CODE QUEST est conçu pour rendre l'apprentissage du
+                développement web progressif et pratique. Chaque défi
+                et chaque projet te permettent de renforcer tes compétences.
             </p>
 
-            <ul>
-                <li>Défis interactifs</li>
-                <li>Projets pratiques</li>
-                <li>Apprendre progressivement</li>
+            <ul class="benefits-list">
+
+                <li class="benefit-item">
+                    <span class="benefit-number">01</span>
+                    <div>
+                        <h3>Défis interactifs</h3>
+                        <p>Teste tes connaissances et relève des challenges.</p>
+                    </div>
+                </li>
+
+                <li class="benefit-item">
+                    <span class="benefit-number">02</span>
+                    <div>
+                        <h3>Projets pratiques</h3>
+                        <p>Applique tes connaissances dans des projets concrets.</p>
+                    </div>
+                </li>
+
+                <li class="benefit-item">
+                    <span class="benefit-number">03</span>
+                    <div>
+                        <h3>Apprendre progressivement</h3>
+                        <p>Avance à ton rythme, notion après notion.</p>
+                    </div>
+                </li>
+
             </ul>
 
         </section>
 
         <!-- FONCTIONNEMENT -->
-        <section class="section">
+        <section class="section section-alt">
 
-            <h2>Comment fonctionne CODE QUEST ?</h2>
+            <div class="section-heading">
+                <p class="eyebrow">TA MÉTHODE DE PROGRESSION</p>
+                <h2>Comment fonctionne CODE QUEST ?</h2>
+            </div>
 
-            <p>
-                Dans CODE QUEST, tu progresses étape par étape. Chaque notion apprise
-                est suivie d'exercices, de projets et de défis qui te permettent
-                de mettre tes connaissances en pratique.
+            <p class="section-description">
+                Chaque notion apprise est suivie d'exercices,
+                de projets et de défis qui te permettent de
+                mettre tes connaissances en pratique.
             </p>
 
-            <ol>
-                <li>Apprendre</li>
-                <li>Pratiquer</li>
-                <li>Construire</li>
-                <li>Affronter les Boss</li>
-                <li>Progresser</li>
+            <ol class="steps-list">
+
+                <li class="step-item">
+                    <span class="step-number">01</span>
+                    <span class="step-label">Apprendre</span>
+                </li>
+
+                <li class="step-item">
+                    <span class="step-number">02</span>
+                    <span class="step-label">Pratiquer</span>
+                </li>
+
+                <li class="step-item">
+                    <span class="step-number">03</span>
+                    <span class="step-label">Construire</span>
+                </li>
+
+                <li class="step-item">
+                    <span class="step-number">04</span>
+                    <span class="step-label">Affronter les Boss</span>
+                </li>
+
+                <li class="step-item">
+                    <span class="step-number">05</span>
+                    <span class="step-label">Progresser</span>
+                </li>
+
             </ol>
 
         </section>
 
-        <!-- DÉBUT DE L'AVENTURE -->
+        <!-- APPEL À L'ACTION -->
         <section class="section">
 
-            <h2>Ton aventure commence ici</h2>
+            <div class="section-heading">
+                <p class="eyebrow">À TON TOUR</p>
+                <h2>Ton aventure commence ici</h2>
+            </div>
 
-            <p>
+            <p class="section-description">
                 Choisis ton parcours, relève les défis et développe
                 progressivement tes compétences en développement web.
             </p>
 
-            <a href="pages/parcours.html" class="btn">
-                Commencer le parcours
-            </a>
+            <div class="action-links">
 
-            <a href="pages/projets.html" class="btn">
-                Découvrir les projets
-            </a>
+                <a href="pages/parcours.html" class="btn">
+                    Commencer le parcours
+                </a>
+
+                <a href="pages/projets.html" class="btn btn-secondary">
+                    Découvrir les projets
+                </a>
+
+            </div>
 
         </section>
 
-        <!-- PREMIÈRES MISSIONS -->
-        <section class="section">
+        <!-- MISSIONS -->
+        <section class="section section-alt">
 
-            <h2>Nos premières missions</h2>
+            <div class="section-heading">
+                <p class="eyebrow">TES PREMIÈRES ÉTAPES</p>
+                <h2>Nos premières missions</h2>
+            </div>
 
-            <article class="mission-card">
+            <p class="section-description">
+                Commence ton aventure en découvrant les technologies
+                fondamentales du développement web.
+            </p>
 
-                <h3>Mission 1 — HTML</h3>
+            <div class="missions-container">
 
-                <p>Découvre les bases du HTML.</p>
+                <article class="mission-card">
 
-                <a href="pages/cours.html">Découvrir</a>
+                    <p class="mission-number">MISSION 01</p>
 
-            </article>
+                    <h3>HTML</h3>
 
-            <article class="mission-card">
+                    <p>
+                        Apprends à structurer des pages web et à créer
+                        le squelette de tes futurs projets.
+                    </p>
 
-                <h3>Mission 2 — CSS</h3>
+                    <a href="pages/cours.html" class="text-link">
+                        Découvrir la mission →
+                    </a>
 
-                <p>Découvre les bases du CSS.</p>
+                </article>
 
-                <a href="pages/cours.html">Découvrir</a>
+                <article class="mission-card">
 
-            </article>
+                    <p class="mission-number">MISSION 02</p>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Apprends à styliser tes pages web avec des couleurs,
+                        des mises en page et des règles de présentation.
+                    </p>
+
+                    <a href="pages/cours.html" class="text-link">
+                        Découvrir la mission →
+                    </a>
+
+                </article>
+
+            </div>
 
         </section>
 
     </main>
 
-    <!-- FOOTER -->
-    <footer>
+    <!-- PIED DE PAGE -->
+    <footer class="site-footer">
 
         <p>&copy; 2026 CODE QUEST. Tous droits réservés.</p>
+
+        <p>Apprends, pratique et deviens un développeur.</p>
 
     </footer>
 
 </body>
-
 </html>
