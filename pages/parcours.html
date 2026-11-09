@@ -1,89 +1,171 @@
 
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="Découvre les parcours CODE QUEST et apprends le développement web étape par étape.">
+
     <title>Nos parcours | CODE QUEST</title>
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
+
 <body>
 
-    <header>
-        <div>
+    <!-- En-tête -->
+    <header class="site-header">
+
+        <div class="logo">
             <a href="../index.html">
-                <img
-                    src="../assets/images/logo-code-quest.png"
-                    alt="Logo de CODE QUEST"
-                    width="100"
-                >
+                <img src="../assets/images/logo-code-quest.png"
+                     alt="Logo CODE QUEST"
+                     width="100">
             </a>
         </div>
 
-        <nav>
+        <nav class="navigation">
             <a href="../index.html">Accueil</a>
-            <a href="parcours.html">Parcours</a>
+            <a href="parcours.html" aria-current="page">Parcours</a>
             <a href="projets.html">Projets</a>
             <a href="boss.html">Boss</a>
             <a href="progression.html">Progression</a>
         </nav>
+
     </header>
 
     <main>
 
-        <section>
-            <h1>Choisis ton parcours d'apprentissage</h1>
+        <!-- Présentation -->
+        <section class="hero">
 
-            <p>
-                Progresse étape par étape, relève des défis et développe
-                tes compétences en développement web.
-            </p>
+            <div class="hero-content">
+
+                <p class="eyebrow">TON APPRENTISSAGE COMMENCE ICI</p>
+
+                <h1>
+                    Choisis ton parcours.<br>
+                    <span>Construis tes compétences.</span>
+                </h1>
+
+                <p class="hero-description">
+                    Découvre les technologies du développement web,
+                    apprends progressivement et transforme tes connaissances
+                    en projets concrets.
+                </p>
+
+            </div>
+
         </section>
 
-        <section>
-            <h2>Les parcours disponibles</h2>
+        <!-- Les parcours -->
+        <section class="section">
 
-            <article>
-                <h3>Parcours HTML</h3>
-                <p>
-                    Apprends à structurer des pages web avec les éléments
-                    fondamentaux du HTML.
-                </p>
-                <a href="cours.html">Découvrir les cours HTML</a>
-            </article>
+            <div class="section-heading">
 
-            <article>
-                <h3>Parcours CSS</h3>
-                <p>
-                    Apprends à mettre en forme tes pages, organiser les
-                    éléments et créer des interfaces adaptées aux écrans.
-                </p>
-                <a href="cours.html">Découvrir les cours CSS</a>
-            </article>
+                <p class="eyebrow">LES TECHNOLOGIES</p>
 
-            <article>
-                <h3>Parcours JavaScript</h3>
-                <p>
-                    Apprends à rendre tes pages interactives et à
-                    programmer des fonctionnalités.
-                </p>
-                <a href="cours.html">Découvrir les cours JavaScript</a>
-            </article>
+                <h2>Explore les parcours</h2>
 
-            <article>
-                <h3>Parcours PHP et MySQL</h3>
-                <p>
-                    Apprends à créer des applications dynamiques et à
-                    gérer des données avec une base de données.
-                </p>
-                <a href="cours.html">Découvrir les cours PHP et MySQL</a>
-            </article>
+            </div>
+
+            <p class="section-description">
+                Chaque parcours te guide depuis les notions fondamentales
+                jusqu'à la réalisation de projets pratiques.
+            </p>
+
+            <div class="missions-container">
+
+                <!-- HTML -->
+                <article class="mission-card">
+
+                    <p class="mission-number">PARCOURS 01</p>
+
+                    <h3>HTML</h3>
+
+                    <p>
+                        Apprends à structurer des pages web avec les balises,
+                        les liens, les images et les éléments sémantiques.
+                    </p>
+
+                    <a href="cours.html" class="text-link">
+                        Découvrir les cours →
+                    </a>
+
+                </article>
+
+                <!-- CSS -->
+                <article class="mission-card">
+
+                    <p class="mission-number">PARCOURS 02</p>
+
+                    <h3>CSS</h3>
+
+                    <p>
+                        Apprends à mettre en forme tes pages web, gérer les
+                        couleurs, les espacements, les dispositions et le responsive design.
+                    </p>
+
+                    <a href="cours.html" class="text-link">
+                        Découvrir les cours →
+                    </a>
+
+                </article>
+
+                <!-- JavaScript -->
+                <article class="mission-card">
+
+                    <p class="mission-number">PARCOURS 03</p>
+
+                    <h3>JavaScript</h3>
+
+                    <p>
+                        Découvre la programmation côté navigateur et rends
+                        tes pages web interactives grâce aux événements
+                        et à la manipulation du DOM.
+                    </p>
+
+                    <a href="cours.html" class="text-link">
+                        Découvrir les cours →
+                    </a>
+
+                </article>
+
+                <!-- PHP et MySQL -->
+                <article class="mission-card">
+
+                    <p class="mission-number">PARCOURS 04</p>
+
+                    <h3>PHP & MySQL</h3>
+
+                    <p>
+                        Apprends à développer des applications web dynamiques,
+                        traiter des données et communiquer avec une base de données.
+                    </p>
+
+                    <a href="cours.html" class="text-link">
+                        Découvrir les cours →
+                    </a>
+
+                </article>
+
+            </div>
+
         </section>
 
     </main>
 
-    <footer>
-        <p>&copy; 2026 CODE QUEST</p>
+    <!-- Pied de page -->
+    <footer class="site-footer">
+
+        <p>&copy; 2026 CODE QUEST. Tous droits réservés.</p>
+
+        <p>Apprends, pratique et deviens un développeur.</p>
+
     </footer>
 
 </body>
+
 </html>
